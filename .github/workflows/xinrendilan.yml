@@ -1,0 +1,29 @@
+name: xinrendilan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '22 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xinrendilan
+        env:
+          ziux7141: ${{ secrets.ziux7141 }}
+        run: |
+          echo $ziux7141 | jq -r .aynwj281 | /bin/bash
+          echo $llthp85115 | jq -r .nuw943 | /bin/bash
+          echo $kaze3 | jq -r .nvrvs2 | /bin/bash
+          echo $rx6 | jq -r .s65 | /bin/bash
+          echo $n886 | jq -r .lv7 | /bin/bash
+          echo $gpq6473 | jq -r .vqd16526 | /bin/bash
+          echo $dq09 | jq -r .v49 | /bin/bash
+          echo $cm3 | jq -r .dqls128 | /bin/bash
+          echo $ew371 | jq -r .e858 | /bin/bash
+          echo $yblm89239 | jq -r .wnta0265 | /bin/bash
+          echo $amc1 | jq -r .mbgv8 | /bin/bash
+
